@@ -44,6 +44,9 @@ for student in fio_list:
         # добавляем в переменную totalinfo каждый вывод конкотинации цикла (listreduce) с новой строки
         totalinfo += (str(listreduce)) + "\n"
 
+print("\nСтудент счастлифчик: ", rm.choice(fio_list))
+totalinfo += "\nСтудент счастлифчик: " + str(rm.choice(fio_list))
+
 # создаем файл variantsresponse.txt
 f = open('variantsresponse.txt','a+')
 # пишем в него вывод переменной totalinfo и закрываем работу с файлом
