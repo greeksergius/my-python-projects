@@ -39,8 +39,8 @@ for student in fio_list:
         totalinfo += "==============================================================\n"
     #rando = rm.randint(1, 3)
     else:
-        print("Студент: ", student, "- Номер варианта:", rm.randrange(1,21) )
-        listreduce = f"Студент:  {student} - Номер варианта: {rm.randrange(1,21)}"
+        print("Студент: ", student, "- Номер варианта:", rm.randrange(1,19) )
+        listreduce = f"Студент:  {student} - Номер варианта: {rm.randrange(1,19)}"
         # добавляем в переменную totalinfo каждый вывод конкотинации цикла (listreduce) с новой строки
         totalinfo += (str(listreduce)) + "\n"
 
